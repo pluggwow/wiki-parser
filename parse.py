@@ -3,8 +3,11 @@
 # import <название зависимости>
 
 
-def func1():
-    pass
+def get_response(url):
+    response = requests.get(url)
+    soup = bs4.BeautifulSoup(response.text, 'html.parser')
+    table = soup.find('table', {'class': 'wikitable'})
+    return table
 
 
 def extract_currency_data(table):
