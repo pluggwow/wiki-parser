@@ -2,6 +2,11 @@
 # TODO - добавить импорты внешних зависимостей 
 # import <название зависимости>
 
+
+def func1():
+    pass
+
+
 def extract_currency_data(table):
     # Списки для хранения данных
     codes = []
