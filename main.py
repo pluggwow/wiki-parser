@@ -1,7 +1,7 @@
 # main - стартовый модуль проекта
 
  # импорты из модуля
-from parse import func1, extract_currency_data, get_response
+from parse import extract_currency_data, get_response
 
 # функция запуска импортированных функций 
 def main():
