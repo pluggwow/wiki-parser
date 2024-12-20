@@ -17,6 +17,7 @@
 2. Вставьте следующий код в этот файл:
 
 from docx import Document
+
 import os
 
 folder_path = 'path_to_your_folder'
