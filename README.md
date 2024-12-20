@@ -19,10 +19,8 @@
 from docx import Document
 import os
 
-# Папка с исходными файлами
 folder_path = 'path_to_your_folder'
 
-# Перебираем все файлы в указанной папке
 3. Запустите скрипт командой:
 python wiki-parser.py
 
