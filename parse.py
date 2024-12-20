@@ -2,6 +2,9 @@
 # TODO - добавить импорты внешних зависимостей 
 # import <название зависимости>
 
+import requests
+import bs4
+
 
 def get_response(url):
     response = requests.get(url)
